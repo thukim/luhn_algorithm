@@ -1,4 +1,5 @@
 require 'luhn_algorithm/version'
+require 'luhn_algorithm/validator'
 
 module LuhnAlgorithm
   NUMBER_ONLY = /^\d+$/
