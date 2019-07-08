@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kimmie"]
   spec.email         = ["kimthu.bui@gmail.com"]
 
-  spec.summary       = %q{Validate a number using Luhn Algorithm}
-  spec.description   = %q{Validate a number using Luhn Algorithm}
+  spec.summary       = %q{Validate numbers using Luhn Algorithm}
+  spec.description   = %q{Validate numbers using Luhn Algorithm}
   # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
