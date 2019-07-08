@@ -1,3 +1,9 @@
+<!--
+  Title: Luhn Algorithm
+  Description: Validate using Luhn Algorithm
+  Author: thukim (kimmie)
+-->
+
 # LuhnAlgorithm
 
 Inspired after reading about Luhn Algorithm (or Modulus 10 Algorithm) article (https://en.wikipedia.org/wiki/Luhn_algorithm) from Wiki, I made this gem to easily validate a variety of identification numbers, for example Social Insurance numbers, or Credit card numbers.
