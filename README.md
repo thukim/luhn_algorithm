@@ -52,6 +52,14 @@ You can also pass in a customized message when validating an attribute with Luhn
 validates_luhn_algorithm_of :social_insurance_number, message: 'is not in the correct format'
 ```
 
+If you want to validate a number with Luhn algorithm on console, you can just type `LuhnAlgorithm.valid?(<your_number_here>)`, for example:
+
+```
+require 'luhn_algorithm'
+
+LuhnAlgorithm.valid?(4111111111111111)
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/thukim/luhn_algorithm. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
