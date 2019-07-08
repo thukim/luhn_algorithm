@@ -39,8 +39,12 @@ class Member
   validates :social_insurance_number, luhn_algorithm: true
 end
 ```
+
+```
 person = Member.new(social_insurance_number: 'a valid number')
+
 person.valid? # => true
+```
 
 You can also pass in a customized message when validating an attribute with Luhn Algorithm, for example
 
