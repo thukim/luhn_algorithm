@@ -20,28 +20,33 @@ Or install it yourself as:
 
 ## Usage
 
+```
 class Member
   include ActiveModel::Model
 
   attr_accessor :social_insurance_number
   validates_luhn_algorithm_of :social_insurance_number
 end
+```
 
 OR
 
+```
 class Member
   include ActiveModel::Model
 
   attr_accessor :social_insurance_number
   validates :social_insurance_number, luhn_algorithm: true
 end
-
+```
 person = Member.new(social_insurance_number: 'a valid number')
 person.valid? # => true
 
 You can also pass in a customized message when validating an attribute with Luhn Algorithm, for example
 
-`validates_luhn_algorithm_of :social_insurance_number, message: 'is not in the correct format'`
+```
+validates_luhn_algorithm_of :social_insurance_number, message: 'is not in the correct format'
+```
 
 ## Contributing
 
